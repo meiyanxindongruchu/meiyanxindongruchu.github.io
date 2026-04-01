@@ -20,13 +20,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":true,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js" defer></script>
 
-    <meta property="og:type" content="website">
+    <meta name="description" content="📌Undergraduate Innovation Project: Edge-Preserving Diffusion Models for Image InpaintingRole: Core MemberDuration: Apr. 2025 – Present 🔍 OverviewThis project aims to enhance diffusion-based image in">
+<meta property="og:type" content="website">
 <meta property="og:title" content="projects">
 <meta property="og:url" content="http://example.com/projects/index.html">
 <meta property="og:site_name" content="Shiyu Dong Research Blog">
+<meta property="og:description" content="📌Undergraduate Innovation Project: Edge-Preserving Diffusion Models for Image InpaintingRole: Core MemberDuration: Apr. 2025 – Present 🔍 OverviewThis project aims to enhance diffusion-based image in">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2026-02-14T05:58:06.000Z">
-<meta property="article:modified_time" content="2026-02-14T05:58:06.356Z">
+<meta property="article:modified_time" content="2026-04-01T03:35:17.279Z">
 <meta property="article:author" content="Shiyu Dong">
 <meta name="twitter:card" content="summary">
 
@@ -119,7 +121,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -132,6 +134,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%F0%9F%93%8CUndergraduate-Innovation-Project-Edge-Preserving-Diffusion-Models-for-Image-Inpainting"><span class="nav-number">1.</span> <span class="nav-text">📌Undergraduate Innovation Project: Edge-Preserving Diffusion Models for Image Inpainting</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%F0%9F%94%8D-Overview"><span class="nav-number">1.1.</span> <span class="nav-text">🔍 Overview</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%F0%9F%92%A1-Methodology"><span class="nav-number">1.2.</span> <span class="nav-text">💡 Methodology</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%F0%9F%9B%A0%EF%B8%8F-Contributions"><span class="nav-number">1.3.</span> <span class="nav-text">🛠️ Contributions</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%F0%9F%93%8C-Industry-Internship-Project-Computer-Vision-at-Nanjing-TRS-Information-Technology-Co-Ltd"><span class="nav-number">2.</span> <span class="nav-text">📌 Industry Internship Project: Computer Vision at Nanjing TRS Information Technology Co., Ltd.</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%F0%9F%94%8D-Overview-1"><span class="nav-number">2.1.</span> <span class="nav-text">🔍 Overview</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%F0%9F%92%A1-Methodology-1"><span class="nav-number">2.2.</span> <span class="nav-text">💡 Methodology</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%F0%9F%9B%A0%EF%B8%8F-Contributions-1"><span class="nav-number">2.3.</span> <span class="nav-text">🛠️ Contributions</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -181,7 +184,62 @@
       
       
       <div class="post-body">
-          
+          <h2 id="📌Undergraduate-Innovation-Project-Edge-Preserving-Diffusion-Models-for-Image-Inpainting"><a href="#📌Undergraduate-Innovation-Project-Edge-Preserving-Diffusion-Models-for-Image-Inpainting" class="headerlink" title="📌Undergraduate Innovation Project: Edge-Preserving Diffusion Models for Image Inpainting"></a>📌Undergraduate Innovation Project: Edge-Preserving Diffusion Models for Image Inpainting</h2><p><strong>Role:</strong> Core Member<br><strong>Duration:</strong> Apr. 2025 – Present</p>
+<h3 id="🔍-Overview"><a href="#🔍-Overview" class="headerlink" title="🔍 Overview"></a>🔍 Overview</h3><p>This project aims to enhance diffusion-based image inpainting models for images with complex edge structures.<br>Conventional diffusion models often suffer from <strong>blurred boundaries</strong> and <strong>structural inconsistency</strong> in such scenarios.</p>
+<p>To address this issue, we introduce a <strong>structure-guided framework</strong> that explicitly incorporates edge information into the diffusion process.</p>
+<h3 id="💡-Methodology"><a href="#💡-Methodology" class="headerlink" title="💡 Methodology"></a>💡 Methodology</h3><ul>
+<li><p><strong>Edge Guidance</strong><br>Structural priors (e.g., Canny edge maps) are integrated into the network via a structure-aware attention mechanism.</p>
+</li>
+<li><p><strong>Loss Function Design</strong><br>An edge-aware hybrid loss is designed, combining:</p>
+<ul>
+<li>L1 reconstruction loss</li>
+<li>VGG-based perceptual (feature matching) loss</li>
+</ul>
+</li>
+<li><p><strong>Optimization Objective</strong><br>Improve both:</p>
+<ul>
+<li>Pixel-level accuracy</li>
+<li>Global structural consistency</li>
+</ul>
+</li>
+</ul>
+<h3 id="🛠️-Contributions"><a href="#🛠️-Contributions" class="headerlink" title="🛠️ Contributions"></a>🛠️ Contributions</h3><ul>
+<li>Constructed and preprocessed the dataset</li>
+<li>Reproduced baseline diffusion models</li>
+<li>Designed and implemented model improvements</li>
+<li>Performed training, hyperparameter tuning, and evaluation</li>
+</ul>
+<br>
+
+
+<h2 id="📌-Industry-Internship-Project-Computer-Vision-at-Nanjing-TRS-Information-Technology-Co-Ltd"><a href="#📌-Industry-Internship-Project-Computer-Vision-at-Nanjing-TRS-Information-Technology-Co-Ltd" class="headerlink" title="📌 Industry Internship Project: Computer Vision at Nanjing TRS Information Technology Co., Ltd."></a>📌 Industry Internship Project: Computer Vision at Nanjing TRS Information Technology Co., Ltd.</h2><p><strong>Role:</strong> Computer Vision Intern (Remote)<br><strong>Duration:</strong> Jan. 2026 – Feb. 2026</p>
+<p>📄 <a href="/files/internship_certificate.jpg">Download Internship Certificate (JPG)</a></p>
+<h3 id="🔍-Overview-1"><a href="#🔍-Overview-1" class="headerlink" title="🔍 Overview"></a>🔍 Overview</h3><p>This project focuses on the study and application of generative models in computer vision, particularly for image generation tasks.<br>We systematically explored the evolution and practical usage of models such as <strong>Autoregressive Models, Autoencoders, Variational Autoencoders (VAE), and Generative Adversarial Networks (GANs)</strong>.</p>
+<p>Based on the <strong>Stable Diffusion XL (SDXL)</strong> framework, we further investigated the roles of key components and their impact on generation quality.</p>
+<h3 id="💡-Methodology-1"><a href="#💡-Methodology-1" class="headerlink" title="💡 Methodology"></a>💡 Methodology</h3><ul>
+<li><p><strong>Model Architecture Analysis</strong><br>Studied the core components of SDXL, including:</p>
+<ul>
+<li>Text Encoder</li>
+<li>Variational Autoencoder (VAE)</li>
+</ul>
+</li>
+<li><p><strong>Fine-Tuning Strategy</strong><br>Applied <strong>LoRA (Low-Rank Adaptation)</strong> to adapt the model to different application scenarios.</p>
+</li>
+<li><p><strong>Evaluation Protocol</strong><br>Conducted systematic evaluation of generated images in terms of:</p>
+<ul>
+<li>Semantic consistency</li>
+<li>Detail richness</li>
+<li>Style adaptability</li>
+</ul>
+</li>
+</ul>
+<h3 id="🛠️-Contributions-1"><a href="#🛠️-Contributions-1" class="headerlink" title="🛠️ Contributions"></a>🛠️ Contributions</h3><ul>
+<li>Investigated multiple generative model paradigms (AR, AE, VAE, GAN)</li>
+<li>Analyzed key modules within the SDXL framework</li>
+<li>Implemented LoRA-based fine-tuning experiments</li>
+<li>Designed evaluation criteria and conducted comparative analysis</li>
+</ul>
+
       </div>
       
       
